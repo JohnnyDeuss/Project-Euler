@@ -7,9 +7,9 @@ problem as the encryption key. Specifically, the files were encoded using the fo
 
     openssl enc -bf-cbc -in problem095.py -out problem095.py.enc
 
-One way to decode these files is to the the following command:
+One way to decode these files is to use the following command:
 
     openssl enc -d -bf-cbc -in problem095.py.enc -out problem095.py
 
 Please don't spread these solutions online without them being encrypted, to encourage people to
-solve these problem themselves first.
+solve these problem for themselves first.
